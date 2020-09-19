@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
         - name: authservice
-          image: authservice
+          image: svsshivaprasad/authservice
           ports:
             - containerPort: 4000
           env:
